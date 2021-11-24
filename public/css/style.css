@@ -1,0 +1,14 @@
+body {
+  background-color: #ccc;
+  height: 100vh;
+}
+
+.card-lists {
+  overflow-x: auto;
+}
+
+#addListButton {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

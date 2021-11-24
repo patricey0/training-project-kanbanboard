@@ -1,0 +1,4 @@
+List(id SERIAL, name TEXT, position INT)
+Card(id SERIAL, title TEXT, position INT, color TEXT, #list_id INT)
+Tag(id SERIAL, name TEXT, color TEXT)
+Card_has_tag(#card_id INT, #tag_id INT)
